@@ -1,6 +1,6 @@
 # Live Edit Plugin
 
-A WordPress plugin that adds an editor that allows logged-in users to edit posts in the WordPress classic editor directly on the front-end of posts to the WordPress classic editor.
+A WordPress plugin that adds a classic editor directly on the front end of WordPress posts, allowing logged-in users to edit them right there, without having to click through to the Admin area "Edit Post" screens.
 
 
 ## Features
