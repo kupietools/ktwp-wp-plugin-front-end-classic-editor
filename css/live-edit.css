@@ -1,0 +1,102 @@
+/* Live Edit Plugin Styles */
+.live-edit-container {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.live-edit-editor-container {
+    margin: 20px 0;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.live-edit-button {
+    display: inline-block;
+    background-color: #2271b1;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 2;
+    padding: 0 12px;
+    text-decoration: none;
+    margin-right: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+.live-edit-button:hover,
+.live-edit-button:focus {
+    background-color: #135e96;
+    color: white;
+}
+
+.live-edit-button:disabled {
+    background-color: #c3c4c7;
+    cursor: not-allowed;
+}
+
+.live-edit-cancel {
+    background-color: #f6f7f7;
+    border: 1px solid #c3c4c7;
+    color: #50575e;
+}
+
+.live-edit-cancel:hover,
+.live-edit-cancel:focus {
+    background-color: #f0f0f1;
+    border-color: #8c8f94;
+    color: #3c434a;
+}
+
+.live-edit-actions {
+    margin-top: 15px;
+    text-align: right;
+}
+
+/* Make the editor full width */
+.live-edit-editor-container .wp-editor-wrap {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Make sure TinyMCE toolbar is visible and appears above other elements */
+.mce-toolbar-grp {
+    z-index: 100;
+}
+
+/* Make sure media buttons display properly */
+.live-edit-editor-container .wp-media-buttons {
+    float: left;
+}
+
+/* Style WordPress tab interface */
+.wp-editor-tabs {
+    margin-bottom: 0;
+}
+
+.wp-editor-container {
+    border: 1px solid #ddd;
+    clear: both;
+}
+
+/* Make TinyMCE editing area look nicer */
+.mce-container iframe {
+    background: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 782px) {
+    .live-edit-button {
+        font-size: 13px;
+        line-height: 1.8;
+        padding: 4px 12px;
+    }
+    
+    .live-edit-editor-container {
+        padding: 10px;
+    }
+}
